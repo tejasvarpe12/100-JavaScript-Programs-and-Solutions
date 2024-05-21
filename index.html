@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Positioning Example</title>
+<style>
+  .container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    padding: 20px;
+  }
+
+  .box {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box">Absolute Position</div>
+  This is the container with relative position.
+</div>
+
+</body>
+</html>
